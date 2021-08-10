@@ -5,7 +5,7 @@ import Dashboard from './dashboard'
 function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider>
-      <Component {...pageProps} />
+      
       <Dashboard/>
     </ChakraProvider>
   )
